@@ -1,0 +1,25 @@
+
+# Mas permitir a pasta src/ e seu conteúdo
+!src/
+!src/**
+
+# Ignorar o ambiente virtual
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+share/
+.env
+
+# Cache e bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de ambiente virtual criados por ferramentas (em caso de nomes diferentes de venv)
+env/
+venv/
+.RagLearning/
+.RagLearningEnv/
